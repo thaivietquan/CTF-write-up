@@ -101,3 +101,5 @@ print(result)
 
 ```
 - flag là: `35ecb423b3b43472c35cc2f41011c6d2`
+# tìm hiểu thêm:
+one-time pad là gì? <một kiến thức khá mớimới>
