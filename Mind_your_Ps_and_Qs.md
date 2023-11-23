@@ -12,9 +12,9 @@ e: 65537%`
 
 ## Giải quyết:
 Sau đây là công thức giải mã:
-$ c^{d} \equiv m \pmod{n} $ <br>
+$c^{d} \equiv m \pmod{n}$ <br>
 việc cần làm là đi tìm d: $de \equiv 1 \pmod{\phi(n)}$ <br>
----> lại phải tìm phi n: $ \phi(n) = (p -1) * (q-1)$ <br>
+---> lại phải tìm phi n: $\phi(n) = (p -1) * (q-1)$ <br>
 Vì n khá bé (bé vãi) nên mình sẽ phân tích nó thành thừa số nguyên tố và tìm được ngay `q` và `p`
 Chúng ta cần sử dụng thư viện <span style="color: red">FactorDB</span>
 ## Thư viện FactorDB:
