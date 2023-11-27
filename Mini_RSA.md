@@ -15,13 +15,13 @@ Thuật toán không an toàn: Khi e quá nhỏ, thuật toán mã hóa RSA có 
 
 # Giải:
 + mã hóa : $c \equiv m^e \pmod{n}$
-vì theo gợi ý $ m^e > n$ một chút nên suy ra:
-$m^e = k.n + c $ với $k$ là số tự nhiên.
+vì theo gợi ý $m^e >n$ một chút nên suy ra:
+$m^e = k.n + c$ với $k$ là số tự nhiên.
 + Như đã nói ở trên với $e$ quá bé thì chúng ta có thể sử dụng `brute-force`
 
 ## Solve:
 
-* mình sử dụng thư viện gmpy để tính toán phương trình $m^e = k.n + c $
+* mình sử dụng thư viện gmpy để tính toán phương trình $m^e = k.n + c$
 > thư viện gmpy: một thư viện Python mạnh mẽ được sử dụng cho tính toán chính xác với số nguyên lớn và số thực nâng cao. Nó cung cấp các chức năng cho các phép tính toán như cộng, trừ, nhân, chia, modulo, lũy thừa, căn nguyên, tìm ước chung lớn nhất và nhiều chức năng toán học khác liên quan đến số nguyên và số thực.
 * brute-force cho đến khi tìm được m thỏa mãn: 
 
